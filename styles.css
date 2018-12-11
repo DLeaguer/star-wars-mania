@@ -1,0 +1,45 @@
+p, h4, h2 {
+  border: 1px solid black;
+  margin: 20px 50px;
+  text-align: center;
+  background-color: white;
+  padding: 3px 3px;
+}
+
+body {
+  background-color: rgb(238, 236, 236);
+  margin: 0;
+}
+
+#container {
+  border: 1px solid purple;
+  border-radius: 20px;
+  margin: 40px 70px;
+  background-color: aliceblue
+}
+
+#films {
+  border: 1px solid blue;
+  border-radius: 20px;
+  background-color: rgb(201, 227, 238);
+  margin: 30px 60px;
+}
+
+.contents {
+  text-align: center;
+}
+
+.btn {
+  text-align: center;
+  margin: 0px 500px;
+}
+
+.loading {
+  text-align: center;
+  border: 1px solid blue;
+  margin: 20px 0;
+  background-color: white;
+  padding: 3px 0;
+  margin: 20px 500px;
+  color: blueviolet;
+}
