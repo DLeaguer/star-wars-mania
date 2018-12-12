@@ -5,21 +5,24 @@
 	<title>star-wars-mania</title>
 	<link rel="stylesheet" href="styles.css">
 </head>
-<body>
-	<div id="container">
-		<div id="films"><br><br>  
-			<div class='contents'>CONTENTS:</div> 
-			<h2 class="film-title">FILM TITLE</h2>
-			<p class="film-episode">FILM EPISODE NUMBER</p>
-			<p class="film-director">FILM DIRECTOR NAME</p>
-			<p class="film-producer">FILM PRODUCER NAME</p>
-			<p class="film-open-crawl">FILM OPEN CRAWL</p>
-			<p class="film-release-date">FILM RELEASE DATE</p>
-			<br><hr><br>
+<body background="stars.jpg">
+	<img class='headImg' src="./star-wars-wallpaper-5.jpg" alt="star-wars-wallpaper-5.jpg">
+	<div id='main'>
+		<div id="container" class='bgimg'>
+			<div id="films"><br><br>  
+				<div class='contents'>CONTENTS:</div> 
+				<h2 class="film-title">FILM TITLE</h2>
+				<p class="film-episode">FILM EPISODE NUMBER</p>
+				<p class="film-director">FILM DIRECTOR NAME</p>
+				<p class="film-producer">FILM PRODUCER NAME</p>
+				<p class="film-open-crawl">FILM OPEN CRAWL</p>
+				<p class="film-release-date">FILM RELEASE DATE</p>
+				<br><hr><br>
+			</div>
 		</div>
+		<button class='btn' type='button'>Get Film Data</button>
+		<div class="loading"></div>
 	</div>
-	<button class='btn' type='button'>Get Film Data</button>
-	<div class="loading"></div>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 	<script src='index.js'></script>
 </body>

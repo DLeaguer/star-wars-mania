@@ -29,11 +29,11 @@ function getFilmData(id) {
     let openCrawl = id.results[i].opening_crawl;
     let releaseDate = id.results[i].release_date;
     $('#films').append('<h2>'+title+'</h2>');
-    $('#films').append('<p>'+'episode: '+episode+'</p>');
-    $('#films').append('<p>'+'director: '+director+'</p>');
-    $('#films').append('<p>'+'producer(s): '+producer+'</p>');
-    $('#films').append('<p>'+'<span style="color:blue">'+'opening crawl: '+'<br>'+'</span>'+openCrawl+'</p>');
-    $('#films').append('<p>'+'release date: '+releaseDate+'</p>');
+    $('#films').append('<p>'+'<span style="color:blue">'+'episode: '+'</span><br><br>'+episode+'</p>');
+    $('#films').append('<p>'+'<span style="color:blue">'+'director: '+'</span><br><br>'+director+'</p>');
+    $('#films').append('<p>'+'<span style="color:blue">'+'producer(s): '+'</span><br><br>'+producer+'</p>');
+    $('#films').append('<p>'+'<span style="color:blue">'+'opening crawl: '+'</span><br><br>'+openCrawl+'</p>');
+    $('#films').append('<p>'+'<span style="color:blue">'+'release date: '+'</span><br><br>'+releaseDate+'</p>');
     $('#films').append('<br><hr><br>')
   }
 }
